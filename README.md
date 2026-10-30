@@ -14,10 +14,10 @@ A Power BI dashboard project exploring historical loan application outcomes and 
 
 This project analyses **614 loan applications** and presents the findings across two dashboard pages:
 
-1. **Loan Applicant Risk Analysis** — a high level view of application outcomes and approval rates across education, property area, marital status, and employment status.
-2. **Further Loan Approval Analysis** — a deeper look at credit history, approved versus rejected applications, average applicant income, and average loan amount by loan status.
+1. **Loan Applicant Risk Analysis** :This is a view of application outcomes and approval rates across education, property area, marital status, and employment status.
+2. **Further Loan Approval Analysis** : This is a deeper look at credit history, approved versus rejected applications, average applicant income, and average loan amount by loan status.
 
-The purpose is to turn historical application data into clear, decision-supporting insights. The dashboards describe patterns in the available data; they do not predict future defaults or establish why a loan was approved or rejected.
+The purpose is to turn historical application data into clear, decision supporting insights. The dashboards describe patterns in the available data, they do not predict future defaults or establish why a loan was approved or rejected.
 
 ## Dashboard previews
 
@@ -56,17 +56,17 @@ Based on the values displayed in the dashboards:
 | Approved applicants | 422 |
 | Rejected applicants | 192 |
 | Overall approval rate | 68.73% |
-| Approval rate — graduates | 70.83% |
-| Approval rate — non-graduates | 61.19% |
-| Approval rate — semiurban | 76.82% |
-| Approval rate — urban | 65.84% |
-| Approval rate — rural | 61.45% |
-| Approval rate — credit history 1 | 79.58% |
-| Approval rate — credit history 0 | 7.87% |
-| Average applicant income — rejected | 5,446.08 |
-| Average applicant income — approved | 5,384.07 |
-| Average loan amount — rejected | 151.22 |
-| Average loan amount — approved | 144.29 |
+| Approval rate (graduates) | 70.83% |
+| Approval rate (non-graduates) | 61.19% |
+| Approval rate (semiurban) | 76.82% |
+| Approval rate (urban) | 65.84% |
+| Approval rate (rural) | 61.45% |
+| Approval rate (credit history) 1 | 79.58% |
+| Approval rate (credit history) 0 | 7.87% |
+| Average applicant income (rejected) | 5,446.08 |
+| Average applicant income (approved) | 5,384.07 |
+| Average loan amount (rejected) | 151.22 |
+| Average loan amount (approved) | 144.29 |
 
 ### Interpretation
 
