@@ -14,10 +14,10 @@ A Power BI dashboard project exploring historical loan application outcomes and 
 
 This project analyses **614 loan applications** and presents the findings across two dashboard pages:
 
-1. **Loan Applicant Risk Analysis** — a high-level view of application outcomes and approval rates across education, property area, marital status, and employment status.
+1. **Loan Applicant Risk Analysis** — a high level view of application outcomes and approval rates across education, property area, marital status, and employment status.
 2. **Further Loan Approval Analysis** — a deeper look at credit history, approved versus rejected applications, average applicant income, and average loan amount by loan status.
 
-The purpose is to turn historical application data into clear, decision-supporting insights. The dashboards describe patterns in the available data; they do not, by themselves, predict future defaults or establish why a loan was approved or rejected.
+The purpose is to turn historical application data into clear, decision-supporting insights. The dashboards describe patterns in the available data; they do not predict future defaults or establish why a loan was approved or rejected.
 
 ## Dashboard previews
 
@@ -71,7 +71,7 @@ Based on the values displayed in the dashboards:
 ### Interpretation
 
 - About 68.73% of applications were approved, while 31.27% were rejected.
-- Applicants coded with credit history `1` have a much higher observed approval rate than those coded `0`. This is the largest visible difference among the approval-rate comparisons shown.
+- Applicants coded with credit history `1` have a much higher observed approval rate than those coded `0`. This is the largest visible difference among the approval-rate comparisons shown. 
 - Semiurban applicants have a higher observed approval rate than urban and rural applicants.
 - Graduates have a higher observed approval rate than non-graduates.
 - Rejected applicants have slightly higher average applicant income and average loan amount than approved applicants. This indicates that income alone does not explain the historical approval outcomes.
@@ -80,15 +80,15 @@ These are descriptive findings and associations, not evidence of causation.
 
 ## Business recommendations
 
-1. Investigate credit-history patterns and confirm exactly what the `0` and `1` values represent.
+1. Investigate credit history patterns and confirm exactly what the `0` and `1` values represent.
 2. Review differences in approval rates across applicant groups to understand whether other variables explain the observed patterns.
 3. Check categories with missing or unknown information before making decisions based on their approval rates.
 4. Where possible, compare approval decisions with actual repayment and default outcomes to assess lending risk more directly.
 
 ## Data quality and interpretation notes
 
-- The marital-status chart reports a **100% approval rate** for the `Unknown` category. The number of applicants in that category should be checked; a small group can produce a misleadingly high percentage.
-- The credit-history chart displays categories `0` and `1`, while the dashboard slicer also includes `Unknown`. Confirm whether unknown credit-history records are excluded from the chart, filtered out, or otherwise handled.
+- The marital status chart reports a **100% approval rate** for the `Unknown` category. The number of applicants in that category should be checked because small group can produce a misleadingly high percentage.
+- The credit history chart displays categories `0` and `1`, while the dashboard slicer also includes `Unknown`. Confirm whether unknown credit history records are excluded from the chart, filtered out, or otherwise handled.
 - Confirm the meaning and units of the income and loan amount fields before assigning a currency symbol or describing them as monthly or annual amounts.
 - The labels `Yes` and `No` in the marital-status chart should be mapped to their exact meanings using the dataset's data dictionary.
 - Approval rate measures historical approval decisions. It is **not** the same as repayment success, default probability, or model accuracy.
