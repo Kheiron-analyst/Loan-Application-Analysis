@@ -1,8 +1,8 @@
 # LOAN APPLICATION ANALYSIS
 
-## Dashboard 1: Loan Applicant Risk Analysis
+## Dashboard 1: Loan Application Analysis
 
-![Loan Applicant Risk Analysis](./Screenshot%202026-10-30%20115543.png)
+![Loan Applicant Risk Analysis](./Loan%20analysis.png)
 
 ## Dashboard 2: Further Loan Approval Analysis
 
@@ -14,16 +14,16 @@ A Power BI dashboard project exploring historical loan application outcomes and 
 
 This project analyses **614 loan applications** and presents the findings across two dashboard pages:
 
-1. **Loan Applicant Risk Analysis** :This is a view of application outcomes and approval rates across education, property area, marital status, and employment status.
+1. **Loan Application Analysis** :This is a view of application outcomes and approval rates across education, property area, marital status, and employment status.
 2. **Further Loan Approval Analysis** : This is a deeper look at credit history, approved versus rejected applications, average applicant income, and average loan amount by loan status.
 
 The purpose is to turn historical application data into clear, decision supporting insights. The dashboards describe patterns in the available data, they do not predict future defaults or establish why a loan was approved or rejected.
 
 ## Dashboard previews
 
-### 1. Loan Applicant Risk Analysis
+### 1. Loan Application Analysis
 
-![Loan Applicant Risk Analysis dashboard](images/loan-applicant-risk-analysis.png)
+![Loan Applicant Risk Analysis dashboard](images/Loan-applicant-risk-analysis.png)
 
 This page includes:
 - Total applicants
