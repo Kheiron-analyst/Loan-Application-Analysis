@@ -96,7 +96,7 @@ These are descriptive findings and associations, not evidence of causation.
 ## Tools
 
 - **Microsoft Power BI** — dashboard design, interactive slicers, KPI cards, and visual analysis.
-- **Loan application dataset** — https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset?utm_source=chatgpt.com
+- **Loan application dataset** — https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset?
 
 ## Future improvements
 
